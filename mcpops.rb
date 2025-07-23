@@ -6,6 +6,6 @@ class Mcpops < Formula
   version "0.1.0"
 
   def install
-    bin.install "mcpops"
+    bin.install "MCP Operations"
   end
 end
