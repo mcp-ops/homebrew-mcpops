@@ -1,4 +1,4 @@
-class Mytool < Formula
+class Mcpops < Formula
   desc "Cross-platform MCP configuration management for all applications"
   homepage "https://mcpops.io"
   url "https://github.com/mcp-ops/app-releases/releases/download/mac-v0.1.0/MCP.Operations.app.tar.gz"
