@@ -6,6 +6,10 @@ class Mcpops < Formula
   version "0.1.0"
 
   def install
-    bin.install "MCP Operations"
+    prefix.install "MCP Operations.app"
+    (bin/"mcpops").write <<~EOS
+      #!/bin/bash
+      open "#{prefix}/MCP Operations.app" "$@"
+    EOS
   end
 end
