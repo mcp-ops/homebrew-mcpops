@@ -6,6 +6,6 @@ class Mcpops < Formula
   version "0.1.0"
 
   def install
-    prefix.install "MCP Operations.app"
+    prefix.install Dir["MCP Operations.app"]
   end
 end
